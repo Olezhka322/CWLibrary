@@ -1,0 +1,115 @@
+header a{
+	text-decoration: none;
+}
+
+header > a{
+	color: red;
+}
+.header-menu li{
+	background-color: lightblue;
+}
+
+.header-menu > li{
+	background-color: beige;
+}
+
+/* Селектор первого соседа */
+ul + a{
+	text-transform: uppercase;
+}
+
+/* Селектор последующих соседей */
+ul ~ a{
+	font-weight: 700;
+}
+
+[type]{
+	background-color: #08c;
+	color: #fff;
+}
+input[type="number"]{
+	background-color: red;
+}
+.box-item{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	margin: 10px;
+	transition: all 0.3s;
+}
+
+.box-item:hover{
+	
+}
+
+[class~="box-item"]{
+	background-color: #f00;
+}
+
+
+
+[href^="http"]{
+	text-decoration: line-through;
+}
+[href^="https"]{
+	text-decoration: overline;
+}
+
+.files a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #08c;
+	display: block;
+	padding-left: 20px;
+	background-position: center left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	transition: all 0.15s;
+}
+
+.files a:hover{
+	color: yellow;
+}
+
+.files a:visited{
+	color: aqua;
+}
+
+.input:focus{
+	background-color: blueviolet
+}
+
+[href$="pdf"]{
+	background-image: url(https://cdn4.iconfinder.com/data/icons/file-extensions-1/64/pdfs-512.png);
+	
+}
+[href$="doc"]{
+	background-image: url(https://png.pngtree.com/png-clipart/20190705/original/pngtree-docx-file-document-icon-png-image_4187779.jpg);
+}
+[href$="rar"]{
+	background-image: url(https://cdn.iconscout.com/icon/premium/png-256-thumb/rar-11-81435.png);
+}
+	
+input:disabled{
+	background-color: #ccc;
+}
+
+input[type="checkbox"]:checked{
+	width: 15px;
+	height: 15px;
+	
+}
+
+input[type="checkbox"]: + span{
+	
+	text-decoration: line-through;
+}
+
+input[type="checkbox"]:checked + span{
+	color: green;
+}
+
+
+
+

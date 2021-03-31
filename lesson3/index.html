@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+</head>
+<body>
+	<header>
+		<h1>Forms</h1>
+	</header>
+	
+    <section>
+    
+    <form action="#"  name="form-call-us" method="GET">
+    
+    <label>
+    <span>Введите ваше имя:</span><br>
+    <input type="text" name="FirstName" placeholder="Имя" required><br>
+    </label>
+    
+    	
+    	<input type="text" name="LastName" placeholder="Фамилия"><br>
+    	<input type="password" name="Password" placeholder="Пароль" minlength="8"><br>
+    	<input type="email" name="emil" placeholder="email" disabled><br>
+    	<input type="date" name="date" value="2021-03-22"><br>
+    	<input type="datetime" name="datetime"><br>
+    	<input type="color" name="color"><br>
+    	<input type="number" name="count" min="1" max="20" step="2"><br>
+    	<input type="range" min="0" max="20" step="4"><br>
+    	<input type="search"><br>
+    	<input type="time" name="time"><br>
+    	<input type="tel" pattern="[0-9]{9}" placeholder="000000000"><br>
+    	<span>Телефон должен состоять из 9 символов</span><br>
+    	
+    	
+    	
+    	<textarea name="comment" cols="30" rows="10">
+This is comment
+    	</textarea><br>
+    	
+    	<div>
+		<h4>Выберите цвет</h4>
+  		<label>
+  			<input type="radio" name="color" value="black"> Черный <br>
+  		</label>
+  		<label>
+  			<input type="radio" name="color" value="blue"> Синий <br>
+  		</label>
+  		<label>
+  			<input type="radio" name="color" value="yellow"> Желтый <br>    		
+  		</label>
+  		<h4>Выберите size</h4>
+  		<label>
+  			<input type="radio" name="size" value="S"> S <br>
+  		</label>
+  		<label>
+  			<input type="radio" name="size" value="M"> M <br>
+  		</label>
+  		<label>
+  			<input type="radio" name="size" value="L"> L <br>    		
+  		</label>
+   		
+   		</div>
+   		
+   		<div>
+   			
+   			<h4>Выберите доп. услуги</h4>
+   			
+   			<input type="checkbox" name="services" value="Windows"> Установка Windows <br>
+   			<input type="checkbox" name="services" value="Avast"> Установка Avast <br>
+   			<input type="checkbox" name="services" value="MS Offise"> Установка MC Offise <br>
+   			
+   		</div>
+   		
+   		<div>
+   			<h4>Выберите модель телефона</h4>
+   			<select name="model" multiple>
+   				<option value="Sumsung-s20">Sumsung s20</option>
+   				<option value="iphone10">Iphone 10</option>
+   				<option value="Sums10-s10">Sumsung s10</option>
+   				<option value="Sums8-s8">Sumsung s8</option>
+   				
+   			</select>
+   			
+   		</div>
+   		
+   		<div>
+   			<label>
+   			<img src="https://img.flaticon.com/icons/png/512/126/126477.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="" width="50">
+   			<input type="file" style="display: none">
+   			</label>
+   		</div>
+   		
+   		
+<br>
+    	<input type="submit" value="Send">
+    	<button type="submit"><strong>Call us</strong> later </button>
+    	
+    	
+    	
+    	
+    </form>
+    
+    </section>
+	
+	<footer>
+		
+		
+	</footer>
+</body>
+</html>
